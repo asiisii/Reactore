@@ -6,3 +6,12 @@ export const productsReducer = (state = [], action) => {
       return state
   }
 }
+
+export const filteredReducer = (state = [], action) => {
+  switch(action.type) {
+    case 'STORE_FILTERED_PRODUCTS':
+      return action.payload.filteredData
+    default:
+      return state
+  }
+}
