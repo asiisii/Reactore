@@ -4,7 +4,9 @@ import Card from '../Card/Card'
 
 const Products = () => {
   const productsData = useSelector(store => store.productsData)
-  const productCards = productsData.map(product => {
+  const filteredData = useSelector(store => store.filteredData)
+  let data = filteredData.length ? filteredData : productsData
+  const productCards = data.map(product => {
     return <Card 
       key={product.id}
       title={product.title}
