@@ -27,7 +27,7 @@ export const Home = () => {
       <Form />
       <div className="wrapper">
         {!productsData.length ? 
-          <h1>Loading...</h1>  : 
+          <h1 className='loading'>Loading...</h1>  : 
           <Products />  
         }
       </div>
