@@ -16,7 +16,7 @@ const Card = ({title, description, price, category, image}) => {
           <span>${price}</span>
         </div>
         <div className="buttons">
-          <div className="button add-to-cart">Add to Cart</div>
+          <div className="button add-to-cart">More Details</div>
           <div className="button">Buy Now</div>
         </div>
     </div>
