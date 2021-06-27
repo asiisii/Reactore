@@ -12,8 +12,11 @@ const Card = ({title, description, price, category, image}) => {
         <div className="itemname">
           <span>{title}</span>
         </div>
-        <div className="buttons">
+        <div className="price">
           <span>${price}</span>
+        </div>
+        <div className="buttons">
+          <div className="button add-to-cart">Add to Cart</div>
           <div className="button">Buy Now</div>
         </div>
     </div>
