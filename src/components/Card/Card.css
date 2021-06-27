@@ -73,16 +73,23 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  color: #96939b;
-  background-color: #2e2e39;
-  font-size: 14px;
+  color: #E1C981;
+  background-color: #322D84;
+  font-size: 18px;
+  font-weight: bolder;
   cursor: pointer;
 }
-
+.button:hover {
+  background-color: #835a1d;
+  color: #fff;
+}
 .add-to-cart {
   color: #fff;
-  background: #3060ff;
   margin-right: 15px;
+}
+
+.add-to-cart:hover {
+  background-color: #835a1d;
 }
 
 .add-cart {
