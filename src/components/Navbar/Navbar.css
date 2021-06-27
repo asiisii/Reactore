@@ -60,3 +60,26 @@ header {
   font-size: 22px;
   color: #E1C981;
 }
+
+
+@media screen and (max-width: 440px) {
+  .logo-title-wrapper span {
+    font-size: 25px;
+  }
+
+  .header-container .cart {
+    font-size: 30px;
+  }
+
+  /* .logo-title-wrapper span {
+    font-size: 30px;
+  } */
+
+  .logo-title-wrapper .logo {
+    height: 40px;
+  }
+
+  .logo-title-wrapper .logo img {
+    margin-right: 1px;
+  }
+}
