@@ -1,4 +1,4 @@
-import productsReducer from "./repoReducer"
+import { productsReducer } from "./productsReducer"
 import { combineReducers } from 'redux'
 
 
