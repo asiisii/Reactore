@@ -116,3 +116,30 @@
 .add-cart:hover {
   background-position: left bottom;
 }
+
+@media screen and (max-width: 1180px) {
+  .products-container {
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .products-container {
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .products-container {
+    grid-template-columns: repeat(1, 1fr);
+    
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .wrapper {
+    width: 90%;
+  }
+}
