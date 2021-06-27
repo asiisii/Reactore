@@ -40,17 +40,23 @@ header {
 
 .header-container .cart {
   font-size: 40px;
-  padding: 0 30px;
+  padding: 0 15px;
   text-shadow: 3px 10px 5px rgb(83, 77, 175);
   border-radius: 10px;
-  background: linear-gradient(to right, #A6E3E9 50%, transparent 50%);
+  background: linear-gradient(to right, #a6e3e9 50%, transparent 50%);
   background-size: 200% 100%;
   background-position: right bottom;
-  box-shadow:  -9px -9px 53px #3c8989;
+  box-shadow: -9px -9px 53px #3c8989;
   cursor: pointer;
   transition: all 0.3s ease-out;
 }
 
 .header-container .cart:hover {
   background-position: left bottom;
+}
+
+.cart-items {
+  margin-left: 5px;
+  font-size: 22px;
+  color: #E1C981;
 }
