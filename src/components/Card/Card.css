@@ -34,6 +34,7 @@
   /* width: 100%; */
   display: flex;
   justify-content: center;
+  flex-grow: 1;
 }
 
 .top img {
@@ -44,10 +45,19 @@
 
 .itemname {
   margin: 20px 0px;
+  flex-grow: 1;
 }
 
 .itemname span {
   font-size: 22px;
+}
+
+.price {
+  /* height: 105px; */
+  overflow: hidden;
+  font-size: 25px;
+  color: #96939b;
+  flex-grow: 1;
 }
 
 .buttons {
@@ -68,7 +78,7 @@
   font-size: 14px;
 }
 
-.button {
+.add-to-cart {
   color: #fff;
   background: #3060ff;
   margin-right: 15px;
