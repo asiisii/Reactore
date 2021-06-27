@@ -14,7 +14,7 @@ export const Navbar = () => {
         </div>
         <button className="cart">
           🛒
-          <span className='cart-items'>0</span>
+        <sup className='cart-items'>0</sup>
         </button>
       </div>
     </header>
