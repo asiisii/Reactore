@@ -48,6 +48,7 @@ header {
   background-size: 200% 100%;
   background-position: right bottom;
   box-shadow: -9px -9px 53px #3c8989;
+  position: relative;
   cursor: pointer;
   transition: all 0.3s ease-out;
 }
@@ -58,8 +59,12 @@ header {
 
 .cart-items {
   margin-left: 5px;
-  font-size: 22px;
+  font-size: 29px;
+  font-weight: bolder;
   color: #E1C981;
+  position: absolute;
+  left: 0;
+  margin: -3px 25px;
 }
 
 
