@@ -15,6 +15,9 @@
   flex-grow: 1;
   display: flex;
   align-items: center;
+  background-color: #e5fcfd;
+  border-radius: 40px;
+  margin-bottom: 10px;
 }
 
 .input-container input {
@@ -23,7 +26,7 @@
   border-right: none;
   border-left: none;
   outline: none;
-  color: white;
+  color: #86690E;
   font-size: 20px;
   margin-left: 20px;
   width: 400px;
