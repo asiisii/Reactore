@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../../assests/logo.png'
 import './Navbar.css'
+
 export const Navbar = () => {
   return (
     <header>
@@ -11,7 +12,10 @@ export const Navbar = () => {
           </div>
           <span>Reactore</span>
         </div>
-        <button className="cart">🛒</button>
+        <button className="cart">
+          🛒
+          <span className='cart-items'>0</span>
+        </button>
       </div>
     </header>
   )
