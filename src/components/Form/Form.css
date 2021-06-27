@@ -1,0 +1,42 @@
+.Form {
+  width: 50%;
+  max-width: 1390px;
+  margin: 0 auto;
+  padding: 0 25px;
+  /* background-color: #1c1c24; */
+  height: 60px;
+  border-radius: 10px;
+  /* border: 2px solid #222328; */
+  display: flex;
+  overflow: hidden;
+}
+
+.input-container {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.input-container input {
+  background-color: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  width: 400px;
+  transition: width 0.2s ease-in-out;
+  
+}
+
+.input-container input:focus {
+  width: 500px;
+  border-bottom: 5px solid #71c9ce;
+}
+
+.input-container i {
+  font-size: 20px;
+  margin-left: 25px;
+}
