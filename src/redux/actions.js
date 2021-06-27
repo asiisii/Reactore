@@ -5,4 +5,14 @@ const storeProducts = productsData =>{
   }
 }
 
-export default storeProducts
+const storeFilteredProducts = filteredData => {
+  return {
+    type: 'STORE_FILTERED_PRODUCTS',
+    payload: { filteredData }
+  }
+}
+
+export {
+  storeProducts,
+  storeFilteredProducts
+}
