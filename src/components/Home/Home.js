@@ -3,6 +3,8 @@ import { fetchProducts } from '../../apiData/apiCalls'
 import { Navbar } from '../Navbar/Navbar'
 import { useSelector, useDispatch } from 'react-redux'
 import storeProducts from '../../redux/actions'
+import Products from '../Products/Products'
+
 
 export const Home = () => {
 
@@ -18,16 +20,17 @@ export const Home = () => {
 
     getProducts()
   
-  }, [])
+  }, [dispatch])
 
-  console.log(productsData);
   return (
     <div className='Home'>
       <Navbar />
-      {!productsData.length ? 
-        <h1>Loading...</h1>  : 
-        <h1>got data</h1>  
-      }
+      <div className="wrapper">
+        {!productsData.length ? 
+          <h1>Loading...</h1>  : 
+          <Products />  
+        }
+      </div>
     </div>
   )
 }
