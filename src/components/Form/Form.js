@@ -58,7 +58,7 @@ const Form = () => {
           type='search'
           name='search'
           autoComplete='off'
-          placeholder='Ex: jacket'
+          placeholder='Search...'
           value={ searchText }
           onChange={e => handleChange(e)}
         />
