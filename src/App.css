@@ -10,3 +10,8 @@ body {
   background-color: #A6E3E9;
 }
 
+.loading {
+  text-align: center;
+  font-size: 4rem;
+  color: rgb(148, 128, 14);
+}
